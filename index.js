@@ -90,6 +90,11 @@ app.use('/admin', _routes4.default);
 // API ROUTES V1
 app.use('/v1', _routes2.default);
 
+app.use('/', function(req, res) {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Hello Real world! I am the the GG Web Service Demo');
+});
+
 app.use(_error_handler2.default.logErrors);
 app.use(_error_handler2.default.clientErrorHandler);
 
