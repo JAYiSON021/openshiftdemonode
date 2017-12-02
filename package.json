@@ -1,0 +1,43 @@
+{
+    "name": "gg-web-services",
+    "version": "0.2.0",
+    "description": "just some demo api",
+    "main": "dist",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "eslintConfig": {
+      "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+      },
+      "env": {
+        "node": true
+      },
+      "rules": {
+        "no-console": 0,
+        "no-unused-vars": 1
+      }
+    },
+    "author": "Jayson San Agustin",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "bluebird": "^3.5.0",
+        "body-parser": "^1.16.0",
+        "cloudinary": "^1.9.0",
+        "cors": "^2.8.1",
+        "express": "^4.14.1",
+        "express-jwt": "^5.1.0",
+        "express-validator": "^4.2.1",
+        "jsonwebtoken": "^7.2.1",
+        "mongoose": "^4.8.0",
+        "multer": "^1.3.0",
+        "passport": "^0.3.2",
+        "passport-local": "^1.0.0",
+        "passport-local-mongoose": "^4.0.0",
+        "pm2": "^2.6.1",
+        "promise": "^8.0.1"
+    }
+  }
+  
