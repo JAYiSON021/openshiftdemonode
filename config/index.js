@@ -15,6 +15,6 @@ exports.default = {
     "mongoUrlProd": "mongodb://62b9ccd95243103bd6e83644b2d11dff:72F86f7c252b888@5a.mongo.evennode.com:27017,5b.mongo.evennode.com:27017/62b9ccd95243103bd6e83644b2d11dff?replicaSet=us-5",
     "bodyLimit": "100kb",
     "secret": "1 haV3 th3 kN0w how",
-    "tokentime": 60 * 60 * 24 * 7 // 1 week
+    "tokentime": 60 * 60 * 24 * 8 // 1 week
 };
 //# sourceMappingURL=index.js.map
